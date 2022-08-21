@@ -1,0 +1,218 @@
+
+/*----------------------------Global Area---------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.highlight{
+    color: #ccc;
+}
+
+
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+}
+.createAcount,.createElection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.createAcountContainer,.createElectionContainer{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+.createAcountContainer h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.createAcountContainer h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #195ed4;
+}
+form{
+    padding: 30px 40px;
+}
+.formControl{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.formControl label{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.formControl input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #a7a1a0;
+}
+.formControl input:focus{
+    outline: none;
+    border: 1px solid #000;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #195ed4;
+    border: 2px solid #195ed4;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    outline: none;
+}
+
+.header{
+    background-color: rgb(17, 167, 218);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+.settingsInnerHeader{
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 16%;
+    border-bottom: 1px solid #ccc;
+}
+
+.rightHeader,.leftHeader,.activeUserName{
+    display: flex;
+}
+.leftHeader .links{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.leftHeader .links a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ccc;
+}
+.rightHeader{
+    column-gap: 30px;
+}
+.rightHeader .chatIcon,.activeUserName{
+    margin-top: 10px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.activeUserName {
+    column-gap: 10px;
+}
+.welcomePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: large;
+    text-align: center;
+}
+.welcomePageBody h1{
+    font-size: 45px;
+    margin: 10px 0;
+}
+.welcomePageBody button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color:  rgb(17, 167, 218);
+    border: 1px solid  rgb(17, 167, 218);
+    border-radius: 2px;
+}
+
+.createElectionContainer{
+    width: 600px;
+
+}
+.createElectionContainerHeader{
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
+.createElectionContainerHeader h1{
+    color: #195ed4;
+}
+
+.dashboardBody{
+    width: 70%;
+    margin: auto;
+}
+
+.election{
+    background-color: #FFF;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.DashboardInnerHeader{
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.DashboardInnerHeader button{
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color:  rgb(17, 167, 218);
+    border: 1px solid  rgb(17, 167, 218);
+    border-radius: 2px;
+}
+.electionTitle h2{
+    margin-top: 10px;
+}
+.electionDate{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    font-size: 16px;
+}
+.settingsSidebarLinks{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.settingsSidebarLinks a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.settingsSidebarLinks a:hover{
+    background-color: #195ed4;
+    color: #fff;
+    border-radius: 5px;
+}
+.generalSettingsBody{
+    width: 70%;
+    margin: auto;
+    column-gap: 20px;
+}
+
+.generalSettingsBody{
+    display: flex;
+    margin-top: 30px;
+}
+.generalSettingsBodyContent{
+    background-color: #fff;
+    width: 900px;
+}
