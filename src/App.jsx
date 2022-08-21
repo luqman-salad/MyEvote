@@ -13,7 +13,7 @@ import GeneralSettings from "./pages/generalSettings";
 export const userContext = createContext()
 const App = () => {
 
-  const [user,setUser] = useState("luqman salad")
+  const [user,setUser] = useState("")
   const [elections,setElections] = useState([]);
 
   if(!user) return <Login setUser={setUser}/>
